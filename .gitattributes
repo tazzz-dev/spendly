@@ -1,0 +1,28 @@
+# Normalisasi akhir baris. Repositori menyimpan LF, kecuali yang memang
+# harus CRLF agar tetap jalan di Windows.
+* text=auto
+
+# Skrip yang wajib CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Skrip yang wajib LF
+*.sh    text eol=lf
+gradlew text eol=lf
+
+# Berkas biner
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.ttf   binary
+*.otf   binary
+*.jar   binary
+*.keystore binary
+*.jks   binary
+
+# Berkas hasil bangkitan: jangan dihitung sebagai kode buatan tangan
+lib/**/*.g.dart  linguist-generated=true
+pubspec.lock     linguist-generated=true

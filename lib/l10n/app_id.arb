@@ -1,0 +1,40 @@
+{
+  "@@locale": "id",
+  "settingsTitle": "Setting",
+  "settingsRestorePurchase": "Pulihkan Pembayaran Sebelumnya",
+  "settingsRemoveAds": "Hapus Iklan",
+  "settingsUnavailable": "Fitur ini belum tersedia di versi ini",
+  "settingsShowDecimals": "Tampilkan Angka Desimal",
+  "settingsShowDecimalsExample": "Contoh: {amount}",
+  "@settingsShowDecimalsExample": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsBackupRestore": "Backup dan Restore Data",
+  "settingsDeleteAll": "Hapus Semua Data",
+  "settingsDeleteAllBody": "Seluruh transaksi, rekening, hutang, saran, dan anggaran akan dikosongkan. Setelan tidak ikut terhapus. Aksi ini tidak dapat diurungkan.",
+  "settingsDeleteAllDone": "Semua data telah dihapus",
+  "settingsReminder": "Pengingat",
+  "settingsReminderSubtitle": "Pengingat mencatat harian",
+  "settingsReminderWhen": "Kapan",
+  "settingsReminderPermissionDenied": "Izin notifikasi ditolak, pengingat tidak akan muncul",
+  "settingsTheme": "Warna Tema",
+  "settingsLanguage": "Bahasa",
+  "settingsCancel": "Batal",
+  "settingsDelete": "Hapus",
+  "settingsLoadFailed": "Gagal membaca setelan: {error}",
+  "@settingsLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "themeBlue": "Biru Terang",
+  "themePink": "Mode Pink",
+  "themePurple": "Mode Ungu",
+  "themeDark": "Mode Gelap"
+}

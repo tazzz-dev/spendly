@@ -1,0 +1,10 @@
+# Konfigurasi gen-l10n bawaan Flutter. SPEC G-7 dan RENCANA-BUILD §1.
+#
+# Berkas ARB tinggal di lib/l10n/ dan dibangkitkan menjadi AppLocalizations
+# saat `flutter pub get` (kunci `flutter: generate: true` di pubspec.yaml).
+# Pustaka pihak ketiga tidak dipakai: gen-l10n sudah cukup.
+arb-dir: lib/l10n
+template-arb-file: app_id.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false

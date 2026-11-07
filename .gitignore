@@ -1,0 +1,69 @@
+﻿# --- Data pengguna & hasil ekspor (JANGAN PERNAH di-commit) -------------
+# Basis data lokal, cadangan, dan berkas ekspor berisi data keuangan pribadi.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.bak
+backups/
+_backups/
+exports/
+.env
+.env.*
+
+# Catatan verifikasi perangkat memuat data pengujian pribadi.
+docs/VERIFIKASI.md
+
+# --- Artefak reverse engineering (JANGAN PERNAH di-commit) --------------
+# Folder ini berisi APK Sepran dan hasil analisisnya. Aset, teks, dan
+# ikon milik pihak lain.
+_apk/
+.rea/
+*.evidence.json
+*.apk
+*.aab
+*.xapk
+*.apks
+
+# --- Flutter / Dart ----------------------------------------------------
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.log
+
+# --- Android -----------------------------------------------------------
+.gradle/
+local.properties
+key.properties
+*.jks
+*.keystore
+!android/app/debug.keystore
+
+# --- iOS / macOS -------------------------------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# --- IDE ---------------------------------------------------------------
+.idea/
+.vscode/
+.history/
+*.swp
+
+# --- OS ----------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
